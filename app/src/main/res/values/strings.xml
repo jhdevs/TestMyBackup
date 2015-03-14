@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestMyBackup</string>
+    <string name="hello_world">
+Google test procedure: \n
+adb shell bmgr run \n
+adb uninstall com.jh.testmybachup \n
+... reinstall and see backuped preferences\n\n
+additional:\n
+adb shell restore com.jh.testmybackup
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>
